@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "module": "esnext",
+    "target": "esnext",
+    "types": ["bun-types"],
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "@controllers": ["src/controllers"],
+      "@helpers": ["src/helpers"],
+      "@middleware": ["src/middleware"],
+      "@models": ["src/models"],
+      "@services": ["src/services"],
+      "@types": ["src/types"]
+    }
+  }
+}
